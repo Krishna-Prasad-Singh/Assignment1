@@ -15,8 +15,9 @@ for i in range(1,11):
     previous_number = i
 </pre>
 <br>
+<p>Q2. Write a program to accept a string from the user and display characters that are present at even index number.<p/>
 <br>
-Q2. Write a program to accept a string from the user and display characters that are present at even index number.
+<pre>
 Sol :-
 str = input("Write a string here:- ")
 even_index = ""
@@ -24,34 +25,39 @@ for i in range(len(str)):
     if i % 2 == 0:
         even_index += str[i]
 print("charaters present at even index are", even_index)
+</pre>
 <br>
+<p>Q3. Write a program to remove characters from a string starting from zeeo up to n and and return a new string.</p>
 <br>
-Q3. Write a program to remove characters from a string starting from zeeo up to n and and return a new string.
+<pre>
 Sol :-
 str = input("Write a string here:- ")
 n = int(input("What's n? "))
 new_str = str[n:]
 print("new string:- ", new_str)
-
-
-
-Q4. Write a function to return True if the first and last number of a given list is same. If numbers are different then return False.
+</pre>
+<br>
+<p>Q4. Write a function to return True if the first and last number of a given list is same. If numbers are different then return False.</p>
+<br>
+<pre>
 Sol :-
 def check(list):
     if list[0] == list[-1]:
         return True
     else:
         False
-
-
-
-Q5. Given two list of numbers, write a program to create a new list such that the new list should contain odd numbers from the first list and even numbers from the second list.
+</pre>
+<br>
+<p>Q5. Given two list of numbers, write a program to create a new list such that the new list should contain odd numbers from the first list and even numbers from the second list.</p>
+<br>
+<pre>
 Sol :- 
 Couldn't understant the question.
-
-
-
-Q6. Print multiplication table from 5 to 10.
+</pre>
+<br>
+<p>Q6. Print multiplication table from 5 to 10.</p>
+<br>
+<pre>
 Sol :-
 for number in range(5, 11):
     print(f"Multiplication table for {number}:")
@@ -59,10 +65,11 @@ for number in range(5, 11):
         product = number * multiplier
         print(f"{number} times {multiplier} equals {product}")
     print()
-
-
-
-Q7. Write a program to create a new string made of an input string's first, middle, and last character.
+</pre>
+<br>
+<p>Q7. Write a program to create a new string made of an input string's first, middle, and last character.</p>
+<br>
+<pre>
 Sol :-
 str = input("Write a string here:- ")
 new_str = []
@@ -73,10 +80,11 @@ else:
     new_str.append(str[len(str)//2])
     new_str.append(str[-1])
 print(''.join(new_str))
-
-
-
-Q8. Write a program to reverse a given string.
+</pre>
+<br>
+<p>Q8. Write a program to reverse a given string.</p>
+<br>
+<pre>
 Sol :-
 str = input("Write a string here:- ")
 count = {}
@@ -86,18 +94,21 @@ for characters in str:
     else:
         count[characters] = 1
 print(count)
-
-
-
-Q9. Write a program to reverse a given string.
+</pre>
+<br>
+<p>Q9. Write a program to reverse a given string.</p>
+<br>
+<pre>
 Sol :-
 previous_number = 0
 for i in range(1,11):
     print(f"current number {i}", "previous number is", {previous_number+i})
     previous_number = i
-
-
-
-Q10. Write a program to split a given string on hyphens and display each substring. {ex- Rahul-is-a-doctor.}
+</pre>
+<br>
+<p>Q10. Write a program to split a given string on hyphens and display each substring. {ex- Rahul-is-a-doctor.}</p>
+<br>
+<pre>
 Sol :-
 Couldn't understand the question.
+</pre>
