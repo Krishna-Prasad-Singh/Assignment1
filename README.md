@@ -1,6 +1,8 @@
-# Assignment1
-Q1. Write a program to iterate the first 10 numbers, and in each iteration, print the sum of the current and previous number.
+<h2>Assignment1</h2>
+<p>Q1. Write a program to iterate the first 10 numbers, and in each iteration, print the sum of the current and previous number.</p>
 <br>
+<br>
+<p>
 Sol 1:-
 i = 0
 while i != 10:
@@ -12,6 +14,7 @@ previous_number = 0
 for i in range(1,11):
     print(f"current number {i}", "previous number is", {previous_number+i})
     previous_number = i
+</p>
 <br>
 <br>
 Q2. Write a program to accept a string from the user and display characters that are present at even index number.
@@ -22,9 +25,8 @@ for i in range(len(str)):
     if i % 2 == 0:
         even_index += str[i]
 print("charaters present at even index are", even_index)
-
-
-
+<br>
+<br>
 Q3. Write a program to remove characters from a string starting from zeeo up to n and and return a new string.
 Sol :-
 str = input("Write a string here:- ")
