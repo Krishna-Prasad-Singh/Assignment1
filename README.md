@@ -1,8 +1,7 @@
 <h2>Assignment1</h2>
 <p>Q1. Write a program to iterate the first 10 numbers, and in each iteration, print the sum of the current and previous number.</p>
 <br>
-<br>
-<p>
+<pre>
 Sol 1:-
 i = 0
 while i != 10:
@@ -14,7 +13,7 @@ previous_number = 0
 for i in range(1,11):
     print(f"current number {i}", "previous number is", {previous_number+i})
     previous_number = i
-</p>
+</pre>
 <br>
 <br>
 Q2. Write a program to accept a string from the user and display characters that are present at even index number.
